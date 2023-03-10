@@ -1,6 +1,6 @@
 package io.quarkus.container.image.deployment;
 
-import static io.quarkus.container.image.deployment.util.EnablementUtil.*;
+import static io.quarkus.container.image.deployment.util.EnablementUtil.buildOrPushContainerImageNeeded;
 import static io.quarkus.container.spi.ImageReference.DEFAULT_TAG;
 import static io.quarkus.deployment.builditem.ApplicationInfoBuildItem.UNSET_VALUE;
 

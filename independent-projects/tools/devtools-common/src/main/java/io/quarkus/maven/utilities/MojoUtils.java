@@ -11,7 +11,11 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.Collections;
+import java.util.Scanner;
+import java.util.List;
+import java.util.Arrays;
+import java.util.Properties;
 
 import org.apache.maven.cli.transfer.QuietMavenTransferListener;
 import org.apache.maven.model.Dependency;
